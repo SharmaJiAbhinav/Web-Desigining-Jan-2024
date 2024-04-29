@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+}
+.menu a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: cursive;
+  padding: 0 10px;
+  color: #ff2b85;
+}
+
+
+/* .menu{
+    float: right;
+    padding-top: 2px;
+    margin-top: -31px;
+    margin-right: 35px;
+} */
+/* .img12{
+     padding-left: 50px;
+     padding-top: 14px;
+} */

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .header {
+        background: linear-gradient(to right, black, yellow, green);
+        width: 100%;
+        height: 125px;
+      }
+
+      .header .logo {
+        text-align: center;
+        color: white;
+        font-size: 44px;
+        font-family: math;
+        text-shadow: 5px 3px 2px red;
+        line-height: 130px;
+      }
+
+      .menu {
+        background: blue;
+        width: 100%;
+        height: 60px;
+      }
+
+      .menu ul li {
+        display: inline-block;
+        color: white;
+        font-size: 25px;
+        line-height: 60px;
+        padding: 0 14px;
+      }
+
+      .menu ul li:hover {
+        background: linear-gradient(red, green);
+        
+      }
+
+      .banner {
+        background: url(./image/pexels-photo-1420440.jpeg);
+        width: 100%;
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .news {
+        background: #f7e36b87;
+        width: 100%;
+        height: 50px;
+        margin-top: -50px;
+        padding: 0 80px;
+      }
+
+      .news marquee {
+        line-height: 50px;
+
+        color: white;
+      }
+
+      .topbar{
+        width: 100%;
+        height: 35px;
+        background: #410088;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topbar">
+
+    </div>
+    <div class="header">
+      <div class="logo">
+        <h1>PN INFOSYS</h1>
+      </div>
+    </div>
+    <!--header end-->
+
+    <div class="menu">
+      <ul>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+      </ul>
+    </div>
+    <!--menu end-->
+
+    <div class="banner"></div>
+    <!--banner end-->
+
+    <div class="news">
+      <marquee direction="left" scrollamount="5"
+        ><!--scrollamount is used for speed & directionis for up,down ,right&left-->
+
+        <h2>
+          आयुष्मान भारत के बारे में​​ भारत शासन द्वारा केन्‍द्रीय वित्‍त बजट
+          2018 में आयुष्‍मान भारत की घोषणा की गई
+        </h2>
+      </marquee>
+    </div>
+    <!--news end-->
+  </body>
+</html>

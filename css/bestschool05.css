@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+  nav{
+    width: 100%;
+    height: 60px;
+    background: #ff8800;
+    display: flex;
+    line-height: 60px;
+    padding: 0 172px;
+    text-transform: uppercase;
+    position: fixed;
+    z-index: 1;
+    
+  }
+
+  nav .logo{
+      background: #e67a00;      
+
+  }
+  
+  .menu{
+    border-bottom: 3px solid white;
+    margin-left: 24px;
+  }
+
+  nav .logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 20px;
+  }
+    
+  
+
+   nav .menu a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        margin-left: 2px;
+    }
+
+     .banner{
+        background: url(https://bestschool.net.in/templates/purity_iii/images/bg.jpg);
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+     }
+
+      .banner h2{
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 36%;
+        font-size: 42px;
+        font-family: helvetica neue, Helvetica, Arial, sans-serif;
+        font-weight: 100;
+        text-shadow: 2px 2px #222;
+        
+        margin-bottom: 15px; 
+      }
+
+      .banner h4{
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 36%;
+        font-size: 18px;
+        font-weight: 500;
+        text-shadow: 1px 1px black;
+        font-family: helvetica neue, Helvetica, Arial, sans-serif;
+        line-height: 1.1;
+      }
+
+      .banner input{
+        position: relative;
+        top: 39%;
+        left: 392px;
+        width: 600px;
+        height: 38px;
+        outline: none;
+        border: none;
+        padding-left: 10px;
+        background: rgba(0, 0, 0, .7) none repeat scroll 0 0;
+    }
+    
+       ::placeholder{
+        color:#999999;
+       }
+
+       .ak h2 {
+        text-align: center;
+        font-size: 42px;
+        line-height: 1.15;
+        color: #444;
+        font-family: helvetica neue, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+      }
+      
+      .ak p {
+        text-align: center;
+        color: #666;
+        font-size: 21px;
+        font-weight: 200;
+        margin: 18px 0px 10px;
+        padding-right: 30px;
+      }
+
+       .anchor {
+        border: 0px solid black;
+        float: left;
+        height: 230px;
+        width: 340px;
+        margin: 1px;
+      }
+
+      .images {
+        padding: 4px;
+        line-height: 1.42857143;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 0;
+        transition: all 0.2s ease-in-out;
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+      }
+
+      .anchor h2 {
+        text-align: center;
+        color: #fff;
+        text-shadow: 2px 2px #555;
+        font-size: 1.2em;
+        margin-top: -37px;
+      }
+
+      .button {
+        width: 203px;
+        font-size: 24px;
+        padding: 10px 20px;
+        line-height: 1.33;
+        border-radius: 30px;
+        color: #fff;
+        background: #f80;
+        border-color: #e67a00;
+        margin: 46px;
+        text-align: center;
+        font-weight: 400;
+      }
+
+      .below {
+        width: 100%;
+        height: 216px;
+        background: #f7f7f7;
+      }
+      
+      .below em {
+        margin: 0 0 10px;
+        font-size: 24px;
+        font-family: opensans-italic;
+        font-weight: 400;
+        color: #666;
+      }
+
+      footer {
+        width: 100%;
+        height: 200px;
+        background: #f7f7f7;
+        margin-top: 10px;
+      }
+      
+      footer a {
+        text-decoration: none;
+        color: #f80;
+      }
+      footer small {
+        font-size: 93%;
+      }
+      
+      footer a:hover {
+        color: #b35f00;
+        text-decoration: underline;
+      }
+      
+      
+     
+        
+
+   
